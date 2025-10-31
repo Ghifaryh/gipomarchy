@@ -12,4 +12,4 @@
   ```
 
 ### To do list
-[ ] Try to figure out to change the wallpaper like my old dotfiles.
+[x] Try to figure out to change the wallpaper like my old dotfiles.
