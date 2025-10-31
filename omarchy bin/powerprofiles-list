@@ -1,0 +1,10 @@
+#### ~/.local/share/omarchy/bin/omarchy-powerprofiles-list
+#!/bin/bash
+
+powerprofilesctl list | awk '
+/^\s*[* ]\s*[a-zA-Z0-9\-]+:$/ {
+  name=$0
+  gsub(/^[ *\t]+|:$/,"",name)
+  if ($0 ~ /\*/) printf "● %s\n", name; else printf "  %s\n", name
+}'
+
