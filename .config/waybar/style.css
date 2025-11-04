@@ -54,6 +54,10 @@
   margin-right: 16px;
 }
 
+#tray menu{
+  background-color: @background;
+}
+
 #bluetooth {
   margin-right: 17px;
 }
