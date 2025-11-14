@@ -3,7 +3,6 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  // "height": 26,
   "height": 28,
   "modules-left": ["custom/omarchy", "hyprland/workspaces"],
   "modules-center": ["clock", "custom/update", "custom/screenrecording-indicator"],
@@ -12,7 +11,6 @@
     "bluetooth",
     "network",
     "pulseaudio",
-    // "cpu",
     "battery",
   ],
   "hyprland/workspaces": {
@@ -77,6 +75,7 @@
 		  }
 	  }
   },
+
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
     "format": "{icon}",
@@ -91,8 +90,7 @@
     "on-click": "omarchy-launch-wifi"
   },
   "battery": {
-    // "format": "{capacity}% {icon}",
-    "format": "{icon}",
+    "format": "{capacity}%",
     "format-discharging": "{icon}",
     "format-charging": "{icon}",
     "format-plugged": "",
@@ -103,6 +101,7 @@
     "format-full": "󰂅",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
     "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    
     "interval": 5,
     "on-click": "omarchy-menu power",
     "states": {
