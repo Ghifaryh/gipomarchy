@@ -51,6 +51,10 @@
   margin: 0 7.5px;
 }
 
+#battery{
+  font-size: 13.5px;
+}
+
 #tray {
   margin-right: 16px;
 }
