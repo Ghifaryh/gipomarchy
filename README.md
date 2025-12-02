@@ -1,6 +1,6 @@
 # Backup incase my omarchy goes wrong.
 
-## I'm trying to use omarchy, tired of my old dotfiles.
+## I'm trying to use omarchy, tired of my old [dotfiles][/https://github.com/Ghifaryh/arch-gip] .
 
 ### List stuff I've been doing with these:
 - Using Vivaldi Browser (with disabling "Use Ctrl+Scroll to zoom page" [IT FIXES THE PINCH ZOOM]
