@@ -13,3 +13,6 @@ alias bat80='echo 80 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_
 alias bat100='echo 100 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold && echo "⚡ Limit set to 100%"'
 
 alias resetdns='bash ~/.config/hypr/scripts/reset-dns.sh'
+
+# using sudo pacman -S openfortivpn
+alias xvpn='sudo openfortivpn thedomains.com:port -u user.name'
